@@ -1,6 +1,6 @@
 {
   "name": "crypto-binary",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Assemble and disassemble binary messages used in cryptocoin applications",
   "keywords": [
     "bitcoin",
@@ -8,11 +8,14 @@
   ],
   "main": "./lib/Message.js",
   "devDependencies": {
-    "mocha": "1.*"
+    "mocha": "6.2.3"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/crypto-binary",
     "type": "git"
   },
-  "author": "Brooks Boyd <boydb@midnightdesign.ws>"
+  "author": "Brooks Boyd <boydb@midnightdesign.ws>",
+  "engines": {
+    "node": ">=10.13.0"
+  }
 }
